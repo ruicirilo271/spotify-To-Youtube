@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Playlist criada</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #f7f1e3; color: #4b3b2b; text-align: center; padding: 40px; }
+  a.link {
+    color: #a67c00; font-weight: bold; text-decoration: none; border-bottom: 2px solid transparent;
+  }
+  a.link:hover { border-color: #d4af37; }
+</style>
+</head>
+<body>
+  <h1>Sucesso!</h1>
+  <p>Playlist criada no YouTube com {{ count }} músicas!</p>
+  <p><a href="{{ playlist_url }}" target="_blank" class="link">Ver playlist no YouTube</a></p>
+</body>
+</html>

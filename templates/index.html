@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Spotify → YouTube Playlist</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #f7f1e3; color: #4b3b2b; text-align: center; padding: 40px; }
+  a.button { 
+    display: inline-block; padding: 15px 30px; background: #a67c00; color: white; font-weight: bold; 
+    text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease;
+  }
+  a.button:hover { background: #d4af37; }
+</style>
+</head>
+<body>
+  <h1>Bem-vindo!</h1>
+  <p>Crie playlists do YouTube a partir de playlists do Spotify</p>
+  <a href="{{ auth_url }}" class="button">Login com Spotify</a>
+</body>
+</html>
